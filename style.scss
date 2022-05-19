@@ -1,0 +1,42 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+@import "node_modules/animate.css/animate.min.css";
+
+.container-fluid{
+  background: url(img/pattern-background-desktop.svg) top left no-repeat, url(img/pattern-background-desktop1.svg) bottom left no-repeat;
+  background-size: contain;
+}
+
+.order-summary{
+  border-radius: 1.5em;
+  width: 451px;
+}
+
+.hero-img{
+  border-top-left-radius: 1.5em;
+  border-top-right-radius: 1.5em;
+}
+
+a{
+  color: #4839d0;
+}
+
+.btn-submit{
+  background-color: #382ae1;
+  color: whitesmoke;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 15px;
+}
+
+.btn-cancel{
+  color: #7b829b;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 390px) {
+  .container-fluid{
+    background-image: url("img/pattern-background-mobile.svg");
+  }
+}
