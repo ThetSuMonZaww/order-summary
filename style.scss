@@ -2,9 +2,10 @@
 @import "node_modules/@fortawesome/fontawesome-free/css/all.min.css";
 @import "node_modules/animate.css/animate.min.css";
 
-.container-fluid{
-  background: url(img/pattern-background-desktop.svg) top left no-repeat, url(img/pattern-background-desktop1.svg) bottom left no-repeat;
-  background-size: contain;
+body{
+  background-color: #E0E8FF;
+  background-image: url(img/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
 }
 
 .order-summary{
